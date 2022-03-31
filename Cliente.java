@@ -6,8 +6,8 @@ public class Cliente {
     CartãodeCredito cartaoDeCredito = new CartãodeCredito();
 
     public String retornarDados(){
-        return "{Nome:" + nome + "---- CPF: " + cpf + 
-               "}\nCartão de crédito-> " + cartaoDeCredito.retornarDados() + 
-               "\nConta=> " + conta.retornarDados() + "}";
+        return "Nome:" + nome + "---- CPF: " + cpf + 
+               "\nCartão de crédito-> " + cartaoDeCredito.retornarDados() + 
+               "\nConta=> " + conta.retornarDados() + ";
     }
 }
